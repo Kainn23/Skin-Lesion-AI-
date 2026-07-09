@@ -1,16 +1,109 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# AI Skin Lesion Diagnostic Assistant
 
-Currently, two official plugins are available:
+An end-to-end AI-powered dermatology assistant that analyzes dermoscopic skin lesion images and provides predictions, confidence scores, Grad-CAM visualizations, and clinically relevant lesion information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built using React, FastAPI, and deep learning to demonstrate production-ready deployment of computer vision models in healthcare applications.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Upload dermoscopic images through drag-and-drop or file picker.
+- Real-time skin lesion classification.
+- Confidence score visualization.
+- Grad-CAM heatmap generation for model interpretability.
+- Differential diagnosis suggestions.
+- ABCDE melanoma assessment guidance.
+- Prediction history tracking.
+- Example image gallery for demonstration.
+- Modern responsive UI with dark/light theme support.
+- Modular architecture designed for future MLOps deployment.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## Supported Lesion Classes
+
+The model can classify multiple skin lesion categories including:
+
+- Melanoma (MEL)
+- Melanocytic Nevus (NV)
+- Basal Cell Carcinoma (BCC)
+- Benign Keratosis-like Lesions (BKL)
+- Actinic Keratoses (AKIEC)
+- Dermatofibroma (DF)
+- Vascular Lesions (VASC)
+
+---
+
+## Technology Stack
+
+### Frontend
+
+- React
+- Vite
+- TailwindCSS
+- Context API
+
+### Backend
+
+- FastAPI
+- Uvicorn
+
+### Machine Learning
+
+- PyTorch
+- Torchvision
+- OpenCV
+- NumPy
+- Pillow
+
+### Explainability
+
+- Grad-CAM
+
+### Deployment
+
+- Docker
+- Vercel
+- Render
+
+---
+
+## Project Structure
+
+```text
+Skin_Lesion/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ABCDEAssessment.jsx
+│   │   │   ├── ConfidenceChart.jsx
+│   │   │   ├── DifferentialDiagnosis.jsx
+│   │   │   ├── ExampleGallery.jsx
+│   │   │   ├── GradCAMViewer.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── HistoryPanel.jsx
+│   │   │   ├── ImagePreview.jsx
+│   │   │   ├── LesionInfoPanel.jsx
+│   │   │   ├── ModelInfo.jsx
+│   │   │   ├── PipelineVisualization.jsx
+│   │   │   ├── PredictionCard.jsx
+│   │   │   ├── UploadArea.jsx
+│   │   │   └── UploadCard.jsx
+│   │   │
+│   │   ├── context/
+│   │   ├── data/
+│   │   ├── services/
+│   │   └── App.jsx
+│   │
+│   └── package.json
+│
+├── backend/
+│   ├── main.py
+│   ├── model.pth
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+└── README.md
