@@ -5,6 +5,9 @@ An end-to-end AI-powered dermatology assistant that analyzes dermoscopic skin le
 
 Built using React, FastAPI, and deep learning to demonstrate production-ready deployment of computer vision models in healthcare applications.
 
+demp video present in repo !!
+
+
 ---
 
 ## Features
