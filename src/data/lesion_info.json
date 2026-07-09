@@ -1,0 +1,86 @@
+{
+  "MEL": {
+    "name": "Melanoma",
+    "description": "A malignant skin cancer arising from melanocytes.",
+    "clinical_characteristics": [
+      "Often asymmetric",
+      "Irregular borders",
+      "Multiple colours",
+      "Can evolve rapidly"
+    ],
+    "suggested_action": "Consult a dermatologist promptly for professional evaluation and possible biopsy.",
+    "risk": "High"
+  },
+  "NV": {
+    "name": "Melanocytic Nevus",
+    "description": "A benign proliferation of melanocytes (commonly known as a mole).",
+    "clinical_characteristics": [
+      "Typically symmetric",
+      "Regular borders",
+      "Even coloration",
+      "Stable over time"
+    ],
+    "suggested_action": "Routine monitoring. Consult a dermatologist if it changes in size, shape, or color.",
+    "risk": "Low"
+  },
+  "BCC": {
+    "name": "Basal Cell Carcinoma",
+    "description": "The most common form of skin cancer, arising from the basal cells of the epidermis.",
+    "clinical_characteristics": [
+      "Pearly or waxy bump",
+      "May bleed or crust",
+      "Visible blood vessels",
+      "Often found on sun-exposed areas"
+    ],
+    "suggested_action": "Consult a dermatologist for evaluation and treatment options.",
+    "risk": "High"
+  },
+  "AKIEC": {
+    "name": "Actinic Keratoses and Intraepithelial Carcinoma",
+    "description": "Pre-cancerous or early cancerous lesions caused by chronic sun exposure.",
+    "clinical_characteristics": [
+      "Rough, scaly patches",
+      "Pink or red coloration",
+      "Often on face, scalp, or hands",
+      "Can progress to squamous cell carcinoma"
+    ],
+    "suggested_action": "Consult a dermatologist for assessment. Preventative treatment may be required.",
+    "risk": "Moderate"
+  },
+  "BKL": {
+    "name": "Benign Keratosis",
+    "description": "A benign, non-cancerous skin growth that can appear wart-like or waxy.",
+    "clinical_characteristics": [
+      "Stuck-on appearance",
+      "Waxy or scaly surface",
+      "Brown, black, or tan coloration",
+      "Common in older adults"
+    ],
+    "suggested_action": "Usually harmless. Consult a doctor if irritated, bleeding, or rapidly changing.",
+    "risk": "Low"
+  },
+  "DF": {
+    "name": "Dermatofibroma",
+    "description": "A common benign fibrous nodule often occurring on the lower legs.",
+    "clinical_characteristics": [
+      "Firm bump",
+      "Dimple sign when pinched",
+      "Brown to pink coloration",
+      "Often slightly raised"
+    ],
+    "suggested_action": "Generally no treatment needed unless symptomatic or changing.",
+    "risk": "Low"
+  },
+  "VASC": {
+    "name": "Vascular Lesion",
+    "description": "A benign skin lesion composed of blood vessels (e.g., hemangioma).",
+    "clinical_characteristics": [
+      "Red, purple, or blue coloration",
+      "Compressible",
+      "Can be raised or flat",
+      "Often present from birth or appearing later"
+    ],
+    "suggested_action": "Typically harmless. Seek medical advice if it bleeds frequently or grows rapidly.",
+    "risk": "Low"
+  }
+}
